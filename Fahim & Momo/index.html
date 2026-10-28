@@ -1,0 +1,588 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3ed">
+  <meta name="description" content="Reception invitation of Fahim and Momo">
+
+  <title>Fahim &amp; Momo | Reception by NIMON</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ======================================
+       OPENING SCREEN
+
+       IMAGE CHANGE 01:
+       assets/images/couple-cover.jpg
+
+       Actual image path is in style.css.
+  ======================================= -->
+
+  <div class="intro" id="intro"
+       aria-label="Open reception invitation">
+
+    <div class="intro__photo intro__photo--clear"
+         aria-hidden="true"></div>
+
+    <div class="intro__photo intro__photo--blurred"
+         aria-hidden="true"></div>
+
+    <div class="intro__shade" aria-hidden="true"></div>
+
+    <div class="intro__top">
+      <span class="wordmark wordmark--light">
+        NIMON<span class="wordmark__dot">.</span>
+      </span>
+      <span class="micro-label">A SPECIAL INVITATION</span>
+    </div>
+
+    <div class="intro__center">
+      <p class="intro__overline">
+        A NEW CHAPTER TO CELEBRATE
+      </p>
+
+      <!-- COUPLE NAMES -->
+      <h2 class="intro__names">
+        Md Fahim Shariar <em>&amp;</em> Nusrat Jahan Momo
+      </h2>
+
+      <p class="intro__subline">
+        An evening to remember
+      </p>
+
+      <button
+        type="button"
+        id="openInvitation"
+        class="reveal-button"
+        aria-label="Open reception invitation"
+      >
+        <span>OPEN INVITATION</span>
+        <span class="reveal-button__arrow"
+              aria-hidden="true">↗</span>
+      </button>
+    </div>
+
+    <div class="intro__bottom">
+      <button
+        class="intro__sound"
+        id="introSound"
+        type="button"
+        aria-pressed="false"
+      >♫ &nbsp; Sound off</button>
+
+      <button
+        class="intro__skip"
+        id="skipIntro"
+        type="button"
+      >Skip intro →</button>
+    </div>
+
+  </div>
+
+
+  <!-- ======================================
+       WEBSITE HEADER
+  ======================================= -->
+
+  <header class="site-header" id="siteHeader">
+
+    <a class="wordmark" href="#home">
+      NIMON<span class="wordmark__dot">.</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Page navigation">
+      <a href="#reception">The Event</a>
+      <a href="#venue">Venue</a>
+    </nav>
+
+  </header>
+
+
+  <main id="mainContent" tabindex="-1">
+
+    <!-- ====================================
+         HERO SECTION
+
+         IMAGE CHANGE 01:
+         Same photo as opening.
+    ===================================== -->
+
+    <section class="hero" id="home"
+             aria-labelledby="heroTitle">
+
+      <div class="hero__photo"
+           role="img"
+           aria-label="Couple portrait"></div>
+
+      <div class="hero__gradient"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          TOGETHER WITH OUR FAMILIES
+        </p>
+
+        <p class="hero__event-type">
+          The Reception of
+        </p>
+
+        <h1 class="hero__names" id="heroTitle">
+          Fahim <span>&amp;</span> Momo
+        </h1>
+
+        <div class="fine-rule"></div>
+
+        <!-- CHANGE RECEPTION DATE -->
+        <p class="hero__date">
+          FRIDAY, 18 DECEMBER 2026
+        </p>
+
+        <p class="hero__location">
+          NARAYANGANJ, BANGLADESH
+        </p>
+      </div>
+
+      <a href="#invitation" class="hero__scroll">
+        DISCOVER OUR INVITATION
+        <span aria-hidden="true">↓</span>
+      </a>
+
+    </section>
+
+
+    <!-- ====================================
+         INVITATION MESSAGE
+    ===================================== -->
+
+    <section class="letter section-pad"
+             id="invitation"
+             aria-labelledby="letterTitle">
+
+      <div class="section-inner letter__inner reveal">
+
+        <span class="section-kicker">
+          01 / A NEW CHAPTER
+        </span>
+
+        <h2 class="display-heading" id="letterTitle">
+          The beginning was beautiful.<br>
+          <em>Now, let's celebrate.</em>
+        </h2>
+
+        <span class="letter__separator"
+              aria-hidden="true">✧</span>
+
+        <p class="letter__copy">
+          With joyful hearts and the blessings of our
+          families, we invite you to celebrate our
+          wedding reception. Your presence will make
+          this evening truly unforgettable.
+        </p>
+
+        <p class="letter__signature">
+          With love,
+          <span>Fahim &amp; Momo</span>
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ====================================
+         WEDDING MEMORIES
+
+         IMAGE CHANGE 02-05:
+         Change images in assets/images/
+    ===================================== -->
+
+    <section class="memories section-pad"
+             id="memories"
+             aria-labelledby="memoriesTitle">
+
+      <div class="section-inner">
+
+        <div class="section-heading reveal">
+          <span class="section-kicker">
+            02 / OUR MEMORIES
+          </span>
+
+          <h2 class="display-heading" id="memoriesTitle">
+            The day we <em>said yes.</em>
+          </h2>
+
+          <p>
+            Little moments from the beautiful day
+            that started it all.
+          </p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+          <!-- IMAGE CHANGE 02 -->
+          <button
+            class="gallery-card gallery-card--1 reveal"
+            type="button"
+            data-photo="0"
+            aria-label="Open wedding photo 1"
+          >
+            <img
+              src="assets/images/wedding-01.jpg"
+              alt="Wedding memory one"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="gallery-card__index">01</span>
+          </button>
+
+          <!-- IMAGE CHANGE 03 -->
+          <button
+            class="gallery-card gallery-card--2 reveal"
+            type="button"
+            data-photo="1"
+            aria-label="Open wedding photo 2"
+          >
+            <img
+              src="assets/images/wedding-02.jpg"
+              alt="Wedding memory two"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="gallery-card__index">02</span>
+          </button>
+
+          <!-- IMAGE CHANGE 04 -->
+          <button
+            class="gallery-card gallery-card--3 reveal"
+            type="button"
+            data-photo="2"
+            aria-label="Open wedding photo 3"
+          >
+            <img
+              src="assets/images/wedding-03.jpg"
+              alt="Wedding memory three"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="gallery-card__index">03</span>
+          </button>
+
+          <!-- IMAGE CHANGE 05 -->
+          <button
+            class="gallery-card gallery-card--4 reveal"
+            type="button"
+            data-photo="3"
+            aria-label="Open wedding photo 4"
+          >
+            <img
+              src="assets/images/wedding-04.jpg"
+              alt="Wedding memory four"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="gallery-card__index">04</span>
+          </button>
+
+        </div>
+
+        <p class="gallery-caption reveal">
+          FOUR FRAMES, ONE BEAUTIFUL STORY
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ====================================
+         RECEPTION DATE & COUNTDOWN
+
+         CHANGE:
+         Visible date and data-event-date
+    ===================================== -->
+
+    <section class="reception section-pad"
+             id="reception"
+             aria-labelledby="receptionTitle">
+
+      <div class="section-inner reception__inner reveal">
+
+        <span class="section-kicker">
+          03 / SAVE THE DATE
+        </span>
+
+        <h2 class="display-heading" id="receptionTitle">
+          An evening <em>to remember.</em>
+        </h2>
+
+        <p class="reception__intro">
+          We would be honoured to celebrate
+          this special occasion with you.
+        </p>
+
+        <div class="reception__date-card">
+          <p class="reception__month">
+            DECEMBER · 2026
+          </p>
+
+          <div class="reception__big-date">
+            <span>FRIDAY</span>
+            <strong>18</strong>
+            <span>7:00 PM</span>
+          </div>
+
+          <p class="reception__note">
+            Reception ceremony &amp; dinner
+          </p>
+        </div>
+
+        <!-- CHANGE COUNTDOWN DATE (+06:00 = BD) -->
+        <div
+          class="countdown"
+          id="countdown"
+          data-event-date="2026-12-18T19:00:00+06:00"
+          aria-label="Reception countdown"
+        >
+          <div>
+            <strong id="days">00</strong>
+            <span>DAYS</span>
+          </div>
+          <div>
+            <strong id="hours">00</strong>
+            <span>HOURS</span>
+          </div>
+          <div>
+            <strong id="minutes">00</strong>
+            <span>MINUTES</span>
+          </div>
+          <div>
+            <strong id="seconds">00</strong>
+            <span>SECONDS</span>
+          </div>
+        </div>
+
+        <p class="countdown__message"
+           id="countdownMessage"
+           role="status"></p>
+
+      </div>
+    </section>
+
+
+    <!-- ====================================
+         VENUE
+         Google Maps link is DEMO.
+    ===================================== -->
+
+    <section class="venue section-pad"
+             id="venue"
+             aria-labelledby="venueTitle">
+
+      <div class="section-inner venue__inner reveal">
+
+        <span class="section-kicker section-kicker--light">
+          04 / THE DESTINATION
+        </span>
+
+        <h2 class="display-heading" id="venueTitle">
+          Where we'll <em>celebrate.</em>
+        </h2>
+
+        <div class="venue__frame">
+          <span class="venue__ornament"
+                aria-hidden="true">✧</span>
+
+          <p class="venue__label">
+            RECEPTION VENUE
+          </p>
+
+          <h3>Badhon Community Centre</h3>
+
+          <p>Narayanganj, Bangladesh</p>
+
+          <!-- CHANGE: Actual Maps URL before launch -->
+          <a
+            class="button-outline"
+            href="https://www.google.com/maps/search/?api=1&amp;query=Dhaka%2C%20Bangladesh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GET DIRECTIONS
+            <span aria-hidden="true">↗</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ====================================
+         CLOSING SECTION
+
+         IMAGE CHANGE 06:
+         assets/images/closing-photo.jpg
+         Set in style.css.
+    ===================================== -->
+
+    <section class="closing section-pad"
+             aria-labelledby="closingTitle">
+
+      <div class="closing__photo"></div>
+      <div class="closing__veil"></div>
+
+      <div class="section-inner closing__content reveal">
+
+        <span class="section-kicker section-kicker--light">
+          A BEAUTIFUL EVENING AWAITS
+        </span>
+
+        <h2 class="display-heading" id="closingTitle">
+          Your presence is<br>
+          <em>our greatest gift.</em>
+        </h2>
+
+        <p>
+          We can't wait to celebrate with you.
+        </p>
+
+        <div class="fine-rule"></div>
+
+        <p class="closing__names">
+          Fahim <span>&amp;</span> Momo
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ====================================
+       FOOTER
+  ===================================== -->
+
+  <footer class="footer">
+    <span>CRAFTED WITH LOVE</span>
+
+    <a class="wordmark" href="#home">
+      NIMON<span class="wordmark__dot">.</span>
+    </a>
+
+    <span>DIGITAL INVITATIONS</span>
+  </footer>
+
+
+  <!-- ====================================
+       NEW FEATURE: MANUAL PDF DOWNLOAD
+
+       Put your final PDF here:
+       assets/Fahim-Momo-Reception-Invitation.pdf
+
+       NO PDF generator or preview needed.
+  ===================================== -->
+
+  <a
+    id="downloadInvitation"
+    class="pdf-download-button"
+    href="assets/Fahim-Momo-Reception-Invitation.pdf"
+    download="Fahim-Momo-Reception-Invitation.pdf"
+    aria-label="Download Reception Invitation PDF"
+    title="Download Invitation PDF"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M4 17v3h16v-3"/>
+    </svg>
+  </a>
+
+
+  <!-- ====================================
+       BACKGROUND MUSIC
+
+       MUSIC FILE CHANGE:
+       assets/nimon-soft-tune.mp3
+  ===================================== -->
+
+  <button
+    class="music-toggle"
+    id="musicToggle"
+    type="button"
+    aria-label="Play background music"
+    aria-pressed="false"
+  >
+    <span class="music-toggle__icon"
+          aria-hidden="true">♫</span>
+    <span class="music-toggle__label">Music off</span>
+  </button>
+
+  <audio
+    id="backgroundMusic"
+    src="assets/nimon-soft-tune.mp3"
+    preload="none"
+    loop
+  ></audio>
+
+
+  <!-- ====================================
+       GALLERY LIGHTBOX
+  ===================================== -->
+
+  <dialog class="lightbox"
+          id="photoDialog"
+          aria-label="Wedding photo viewer">
+
+    <div class="lightbox__inner">
+
+      <button
+        class="lightbox__close"
+        id="closePhoto"
+        type="button"
+        aria-label="Close photograph"
+      >×</button>
+
+      <button
+        class="lightbox__arrow"
+        id="prevPhoto"
+        type="button"
+        aria-label="Previous photograph"
+      >‹</button>
+
+      <figure class="lightbox__figure">
+        <img id="lightboxImage" alt="">
+        <figcaption id="lightboxCaption"></figcaption>
+      </figure>
+
+      <button
+        class="lightbox__arrow"
+        id="nextPhoto"
+        type="button"
+        aria-label="Next photograph"
+      >›</button>
+
+    </div>
+  </dialog>
+
+</body>
+</html>
